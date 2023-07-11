@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="one.css">
+</head>
+<body>
+    <div class="main">
+        <h1>HOSTING PLANS</h1>
+        <div class="box">
+            <div class="box1">
+                <h1>BASIC</h1>
+                <p>1 Website</p>
+                <p>50GB SD storage</p>
+                <p>Unmetered Bandwidth</p>
+                <p>Free SSl Certificate</p>
+                <p>1 Included Domain</p>
+                <p>1 Included Domain</p>
+            </div>
+            <div  class="box2">
+                <h1>PLUS</h1>
+                <p>Includes Basic Package Features</p>
+                <p>Unlimited Websites</p>
+                <p>UnlimitedSSd Storage</p>
+                <p>Unlimited Domains</p>
+                <p>Unlimited Parked Domains</p>
+                <p>Unlimited sub Domains</p>
+            </div>
+            <div  class="box3">
+                <h1>PRO</h1>
+                <p>Includes Plus Plan Features</p>
+                <p>High Performance</p>
+                <p>2 Spam experts</p>
+                <p>Free SSL Certification</p>
+                <p>Domain Privacy</p>
+                <p>Site BackUP-Code Basic</p>
+            </div>
+        </div>
+        <div id="butt" class="but">
+            <button onclick="tap()">GET STARTED</button>
+        </div>
+    </div>
+    <script>
+        let on = document.getElementsByClassName("box1")
+        let tw = document.getElementsByClassName("box2")
+        let thr = document.getElementsByClassName("box3")
+        let butt = document.getElementById("butt")
+
+        let tap=()=>{
+           on[0].style.backgroundColor="aquamarine"
+           thr[0].style.backgroundColor="red"
+           tw[0].style.backgroundColor="green"
+           on[0].style.transform= "rotate(360deg)"
+           tw[0].style.transform= "rotate(360deg)"
+           thr[0].style.transform= "rotate(360deg)"
+           on[0].textContent="27"
+           on[0].style.fontSize="90px"
+           on[0].style.height="140px"
+           on[0].style.paddingTop="140px"
+           tw[0].textContent="43"
+           tw[0].style.fontSize="90px"
+           tw[0].style.height="140px"
+           tw[0].style.paddingTop="140px"
+           thr[0].textContent="98"
+           thr[0].style.fontSize="90px"
+           thr[0].style.height="140px"
+           thr[0].style.paddingTop="140px"
+        }
+    </script>
+</body>
+</html>
